@@ -1,38 +1,17 @@
-.App {
-  text-align: center;
+.card-img-top{
+  transition: all ease 0.3s;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.card-img-top:hover{
+  scale: calc(1.1);
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.image-box{
+  overflow: hidden;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+body{
+  overflow-x: hidden;
+  background-image: url("https://static.vecteezy.com/system/resources/previews/007/286/903/non_2x/orange-pattern-with-fast-food-icons-doodle-food-background-free-vector.jpg");
+  background-size: contain;
 }
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.App{
+  overflow-x: hidden;
 }
